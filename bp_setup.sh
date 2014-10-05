@@ -14,6 +14,6 @@ git clone https://github.com/wesleyit/bashproject.git || (echo "Cannot reach git
 mv bashproject .bp
 
 ## Add to .bashrc (if not already there)
-grep -q 'source ~/.bp/bp.sh' || echo -e "\n\n source ~/.bp/bp.sh\n\n"
+grep -q 'source ~/.bp/bp.sh' ~/.bashrc || echo -e '\n\n source ~/.bp/bp.sh\n\n' >> ~/.bashrc
 
 echo "Setup finished"

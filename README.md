@@ -1,11 +1,18 @@
-# Bashproject (bp)
-
-Welcome to bp, the Bash Project. It is a simple set of scripts 
+# Bashproject (BP)
+Welcome to BP, the Bash Project. It is a simple set of scripts 
 made to help you develop your own shell scripts.
 
 Using BP you can enjoy BDD - Behavior Driven Development,
 creating tests for your methods, resulting on a high
 level of quality.
+
+## Setup:
+The installation process is very easy, but you will need to have curl and git installed.
+If you already have them, open a terminal and type:
+
+`curl -s https://raw.githubusercontent.com/wesleyit/bashproject/master/bp_setup.sh | bash`
+
+The code will be downloaded and you will be able to start using BP. Pretty easy, not?
 
 
 ## Usage:
