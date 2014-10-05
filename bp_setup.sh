@@ -18,7 +18,7 @@ BP_BLOCK="
 
 ### INIT BP ###
 source ~/.bp/bp.sh
-complete -W "new run run_tests reload help" bp
+complete -W 'new run run_tests reload help' bp
 ### END BP ###
 
 "
