@@ -14,6 +14,14 @@ git clone https://github.com/wesleyit/bashproject.git || (echo "Cannot reach git
 mv bashproject .bp
 
 ## Add to .bashrc (if not already there)
-grep -q 'source ~/.bp/bp.sh' ~/.bashrc || echo -e '\n\n source ~/.bp/bp.sh\n\n' >> ~/.bashrc
+BP_BLOCK="
+
+### INIT BP ###
+source ~/.bp/bp.sh
+complete -W "new run run_tests reload help" bp
+### END BP ###
+
+"
+grep -q 'source ~/.bp/bp.sh' ~/.bashrc || echo "$BP_BLOCK" >> ~/.bashrc
 
 echo "Setup finished"
