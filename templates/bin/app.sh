@@ -15,4 +15,4 @@ source "$BASEDIR"/lib/*.lib.sh
 
 ## The following code uses a function
 ## defined in the lib file
-say_hello_to Wesley
+say_hello_to Brother
